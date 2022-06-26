@@ -1,0 +1,27 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "grunt serve",
+    "build": "grunt build"
+  },
+  "devDependencies": {
+    "autoprefixer-stylus": "^1.0.0",
+    "deasync": "^0.1.26",
+    "grunt": "^1.5.2",
+    "grunt-cli": "^1.4.3"
+  },
+  "dependencies": {
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-pug": "^3.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^5.2.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sync": "^0.8.2"
+  }
+}
