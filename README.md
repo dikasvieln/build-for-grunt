@@ -5,15 +5,15 @@ based on the old task automation file
 
 ## How to start 
 
-'''
+```
 yarn install
 
 yarn start
-'''
+```
 
 ## Sources
 
-[gruntjs](https://gruntjs.com/)
-[stylus](https://stylus-lang.com/)
-[uglify](https://github.com/mishoo/UglifyJS)
-[pug](https://pugjs.org/api/getting-started.html)
+[gruntjs](https://gruntjs.com/)  
+[stylus](https://stylus-lang.com/)  
+[uglify](https://github.com/mishoo/UglifyJS)  
+[pug](https://pugjs.org/api/getting-started.html)  
