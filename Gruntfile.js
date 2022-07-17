@@ -33,7 +33,7 @@ module.exports = function(grunt) {
           },
           my_target: {
             files: {
-             'public/js/main.min.js': ['_js/main.js'],
+             'public/js/main.min.js': ['_js/*.js'],
             }
               
             }
