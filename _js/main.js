@@ -1,9 +1,10 @@
-import date from './module1'
+// import date from './module1'
 
 const calendar = (() => {
   const data = () => {
     alert('thanks okay')
-    console.log('dataa')
+    // console.log('dataa')
+    alert('data')
   }
 
   return {
