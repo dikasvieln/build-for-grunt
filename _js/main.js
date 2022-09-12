@@ -2,9 +2,9 @@
 
 const calendar = (() => {
   const data = () => {
-    alert('thanks okay')
-    // console.log('dataa')
-    alert('data')
+    // alert('thanks okay')
+    console.log('dataa')
+    // alert('data')
   }
 
   return {

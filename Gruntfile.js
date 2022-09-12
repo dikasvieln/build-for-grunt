@@ -148,7 +148,7 @@ module.exports = function(grunt) {
     grunt.registerTask('css', ['stylus']);
   //  grunt.registerTask('js', ['uglify'])
 
-    grunt.registerTask('build', ['clean', 'css', 'pug', 'uglify','copy']);
+    grunt.registerTask('build', ['clean', 'css', 'pug', 'uglify', 'copy']);
     grunt.registerTask('serve', ['build', 'connect:server', 'watch'])
     grunt.registerTask('default', ['build'])
 };
