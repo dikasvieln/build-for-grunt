@@ -11,6 +11,13 @@ yarn install
 yarn start
 ```
 
+## more details
+
+inspired by grunt cli from mozilla developer advocate
+
+read the article for more detail
+[here](https://new-amdevblog.netlify.app/posts/gruntart)
+
 ## Sources
 
 [gruntjs](https://gruntjs.com/)  
