@@ -1,26 +1,17 @@
+html(lang="en")
 head
   title hello
   link(rel='stylesheet', type="text/css", href="css/main.css")
+  
 body
-  .container
-    .small-header
-      img(src="images/small-img.png")
+  .data-container
+    .card-img
+      img(src="images/image-qr-code.png", alt="qr code")
+    .card-content
+      .title
+        h3 Improve your front-end skills by building your project
+      .description
+        span Scan the QR code to visit Frontend Mentor and take your coding skills to the next level 
 
-    #slideshow-header
-      .slideshow
-        img()
-        img()
-        img()
 
-    #menu
-      ul#trans-nav
-        li
-          a(src="#") Home
-        li
-          a(src="#") About
-        li
-          a(src="#") Blog Archive
-    
-
-  script(src='js/main.min.js')
-
+script(src="js/main.min.js") // eslint-disable-line

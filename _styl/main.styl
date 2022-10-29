@@ -1,20 +1,59 @@
-@import "reset.styl"
-
 *
   padding: 0
   margin: 0
 
+@font-face
+  font-family: Outfit
+  src: url(https://fonts.google.com/specimen/Outfit)
+  font-style: normal
+
+h1
+  font-size: 1.5em
+  text-align: center
+  color: #333
+  margin: 0
+  padding: 0
+  font-weight: normal
+  // text-align: center
+
+h3
+  font-size: 1.2em
+  margin-bottom: 10px
+  padding: 0
+
+
 body 
-  background: #cecece
-  font-size: 14px
+  background:  hsl(215, 37%, 88%)
+  // font-size: 14px
+  text-align: center
+  font-family: arial, Outfit
 
-.main
-  &__section
-   width: 100px
+.data-container
+  padding: 10px 10px
+  border-radius: 15px
+  justify-content: center
+  width: 300px
+  margin: 0 auto
+  margin-top: 10%
+  background: whitesmoke
+  border: 2px solid transparent
+  // text-align: center
+  .title 
+    text-align: center
+    padding: 10px 15px;
+
+  .card-content
+    .description
+      font-size: 15px
+      color: hsl(220, 15%, 55%)
+      padding: 10px 25px
+
+  .card-img
+    background: #cece
+    img
+      height: 300px
+      border-radius: 15px
 
 
-.tab
-  &__section
-    width: 50px
 
 
